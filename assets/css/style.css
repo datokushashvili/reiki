@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.header-button, header .header-right .header-butons a {
+  padding: 10px 18px;
+  border: 1px solid #007CC2;
+  border-radius: 200px;
+  transition: 500ms; }
+  .header-button:hover, header .header-right .header-butons a:hover {
+    border: 1px solid black;
+    color: white;
+    background-color: black; }
+
+.primary-bg-color {
+  background-color: #FDF8F2; }
+
+.secondary-bg-color {
+  background-color: #FED501; }
+
+.font-size-xxs {
+  font-size: 14px; }
+
+.font-size-xs {
+  font-size: 16px; }
+
+.font-size-sm {
+  font-size: 18px; }
+
+.font-size-md {
+  font-size: 20px; }
+
+.font-size-lg {
+  font-size: 64px; }
+
+.font-size-xl {
+  font-size: 72px; }
+
+.primary-font-colors {
+  color: black; }
+
+.secondary-font-colors {
+  color: #007CC2; }
+
+@font-face {
+  font-family: "main-font";
+  src: url(../assets/fonts/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf); }
+
+@font-face {
+  font-family: "secondary-font";
+  src: url(../assets/fonts/AvenirLTStd-Book.otf); }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 42px 88px; }
+  header .header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 48px; }
+    header .header-right ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      gap: 48px; }
+    header .header-right .header-butons a:last-child {
+      margin-left: 16px; }
+
+main {
+  margin-top: 100px;
+  text-align: center; }
+  main h2 {
+    margin: 16px 0 24px 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 82px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  main p {
+    font-family: "main-font"; }
+  main span {
+    padding: 4px 12px;
+    background: #F2F4F7;
+    border-radius: 16px;
+    font-family: "secondary-font"; }
+  main .content-buttons {
+    margin: 48px 0 64px 0; }
+    main .content-buttons a {
+      margin: 0 6px; }
